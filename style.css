@@ -3,32 +3,48 @@
   font-size: 50px;
 }*/
 .header {
-  background-color: lightgrey;
-   height: 650px;
+  background-color: palevioletred;
+
   width: 100%;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  background-image: url(https://media.istockphoto.com/photos/strawberry-and-cream-sponge-cake-on-white-wooden-table-picture-id1294578109?k=20&m=1294578109&s=612x612&w=0&h=BMrE2G1Z3PWqVEcS8QLZsxgkkGwtwoNuBsW_qHGtigE=);
+  justify-content: space-between;
+
+  /*background-image: url(https://media.istockphoto.com/photos/strawberry-and-cream-sponge-cake-on-white-wooden-table-picture-id1294578109?k=20&m=1294578109&s=612x612&w=0&h=BMrE2G1Z3PWqVEcS8QLZsxgkkGwtwoNuBsW_qHGtigE=) ;*/
   background-repeat: no-repeat;
+  align-items: center;
 }
-section p{
+.col-5 {
+  flex-grow: 3;
+}
+
+header img {
+  height: auto;
+  width: 150px;
+  justify-content: flex-end;
+}
+section p {
   padding: 60px 60px;
 }
 .nav {
   display: flex;
   justify-content: flex-end;
-  background-color: ;
+  background-color: palevioletred;
+  margin-top: 20px;
 }
 .image {
-  padding: 30px 30px 40px 100px;
+  box-sizing: border-box;
 }
+.welcome {
+  display: flex;
+}
+
 .cakes {
 }
 .footer {
   background-color: lightgray;
-  padding: 40px 0;
-  margin-top: 1.5em;
+
+  /*padding: 40px 0;
+  margin-top: 1.5em;*/
 }
 /*.footer h1 {
   border: 1px solid purple;
@@ -36,17 +52,17 @@ section p{
 }
 .footer h2 {
   border: 1px solid purple;
-  border-radius: 60px;*/
+  border-radius: 60px;
 }
-/*.footer h3 {
+.footer h3 {
   box-sizing: border-box;
   width: 300px;
   height: 50px;
   padding: 0px 0px 0px 0px;
   
-  margin-bottom: 10px;*/
-}
-.footer{
+  margin-bottom: 10px;
+}*/
+.footer {
   display: flex;
   flex-direction: column;
 }
@@ -54,12 +70,43 @@ section p{
   display: flex;
   justify-content: center;
 }
+.fourcakes {
+  flex-direction: row;
+  display: flex;
+  /*justify-content: space-evenly;*/
+
+  box-sizing: border-box;
+  margin: 50px;
+}
+.first-cake {
+  margin: 60px;
+}
+.second-cake {
+  margin: 50px;
+}
+.third-cake {
+  margin: 50px;
+}
+.fourth-cake {
+  margin: 50px;
+}
+
+/*.fourcakes{
+  
+  @media (min-width: 576px)
+.col-sm-3 {
+    
+    width: 25%;
+}*/
+
 .first {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding-bottom: 30px;
 }
 .second {
   display: flex;
-  justify-content: space-evenly;
-  padding: 10px 10px;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  /* padding: 10px 10px;*/
 }

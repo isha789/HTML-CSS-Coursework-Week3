@@ -1,15 +1,8 @@
-/*section h1 {
-  padding: 40px 10px;
-  font-size: 50px;
-}*/
 .header {
   background-color: palevioletred;
-
   width: 100%;
   display: flex;
   justify-content: space-between;
-
-  /*background-image: url(https://media.istockphoto.com/photos/strawberry-and-cream-sponge-cake-on-white-wooden-table-picture-id1294578109?k=20&m=1294578109&s=612x612&w=0&h=BMrE2G1Z3PWqVEcS8QLZsxgkkGwtwoNuBsW_qHGtigE=) ;*/
   background-repeat: no-repeat;
   align-items: center;
 }
@@ -42,26 +35,8 @@ section p {
 }
 .footer {
   background-color: lightgray;
+}
 
-  /*padding: 40px 0;
-  margin-top: 1.5em;*/
-}
-/*.footer h1 {
-  border: 1px solid purple;
-  border-collapse: separate;
-}
-.footer h2 {
-  border: 1px solid purple;
-  border-radius: 60px;
-}
-.footer h3 {
-  box-sizing: border-box;
-  width: 300px;
-  height: 50px;
-  padding: 0px 0px 0px 0px;
-  
-  margin-bottom: 10px;
-}*/
 .footer {
   display: flex;
   flex-direction: column;
@@ -73,8 +48,6 @@ section p {
 .fourcakes {
   flex-direction: row;
   display: flex;
-  /*justify-content: space-evenly;*/
-
   box-sizing: border-box;
   margin: 50px;
 }
@@ -90,15 +63,6 @@ section p {
 .fourth-cake {
   margin: 50px;
 }
-
-/*.fourcakes{
-  
-  @media (min-width: 576px)
-.col-sm-3 {
-    
-    width: 25%;
-}*/
-
 .first {
   display: flex;
   justify-content: space-between;
@@ -108,5 +72,4 @@ section p {
   display: flex;
   justify-content: space-between;
   padding-bottom: 30px;
-  /* padding: 10px 10px;*/
 }
